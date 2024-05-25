@@ -1,0 +1,120 @@
+body{
+    width: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+@media (min-width:300px) {
+    .navbar{
+        display: block;
+        background-color: aqua;
+    }
+}
+.navbar{
+    background-color:rgb(54, 9, 9);
+    min-height: 100px;
+}
+div ul li{
+    width: 100%;
+    display: inline;
+    text-decoration: none;
+  margin-left: 120px;
+  position: relative;
+  bottom: 80px;
+  font-size: 25px;
+  color: white;
+  font-weight: bolder;
+
+}
+.logo{
+    margin-left: 0px;
+}
+.search{
+    margin-left: 1000px;
+    margin-top: 0px;
+    position: relative;
+    bottom: 40px;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+.search:hover{
+    /* margin-left: 1000px;
+    margin-top: 0px;
+    position: relative;
+    bottom: 40px;
+    border-radius: 10px; */
+    padding: 3px 30px 3px 30px;
+}
+a{
+    text-decoration: none;
+}
+.heart{
+    position: relative;
+    bottom: 35px;
+    margin-left: 20px;
+}
+.heart:hover{
+    position: relative;
+    bottom: 35px;
+    margin-left: 20px;
+    width:30px ;
+}
+@media screen and(max-width:"580px"){
+    .container{
+        display: block;
+    }
+}
+@media screen and(max-width:"280px"){
+    .container{
+        display: block;
+    }
+}
+.container{
+   width: 100%;
+    background-color: rgb(97, 82, 82);
+  height: 500px;
+    color: white;
+    
+
+}
+.contactus{
+    margin: 20px 0 2px 0px;
+  padding: 50px 0 50px 20px;
+}
+.customer{
+position: absolute;
+left: 500px;
+bottom: 265px;
+}
+.imges{
+
+}
+.payment{
+    position: relative;
+    width: 7%;
+    left: 900px;
+    bottom: 365px;
+
+}
+.paypal{
+    position: relative;
+    width: 5%;
+    left: 900px;
+    bottom: 400px;
+}
+.fedex{
+    position: relative;
+    width: 7%;
+    left: 870px;
+    bottom: 390px;
+}
+.westren{
+    position: relative;
+    width: 7%;
+    left: 840px;
+    bottom: 390px;
+}
+
+
+

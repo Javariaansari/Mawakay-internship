@@ -1,0 +1,68 @@
+body{
+    width: 100%;
+    margin: 0;
+    background-image: url(./images/cloth6.webp);
+}
+.navbar{
+    background-color:rgb(54, 9, 9);
+    height: 100px;
+}
+div ul li{
+    width: 100%;
+    display: inline;
+    text-decoration: none;
+  margin-left: 120px;
+  position: relative;
+  bottom: 80px;
+  font-size: 25px;
+  color: white;
+  font-weight: bolder;
+
+}
+.logo{
+    margin-left: 0px;
+}
+.search{
+    margin-left: 1000px;
+    margin-top: 0px;
+    position: relative;
+    bottom: 40px;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+.search:hover{
+    /* margin-left: 1000px;
+    margin-top: 0px;
+    position: relative;
+    bottom: 40px;
+    border-radius: 10px; */
+    padding: 3px 30px 3px 30px;
+}
+a{
+    text-decoration: none;
+}
+.heart{
+    position: relative;
+    bottom: 35px;
+    margin-left: 20px;
+}
+.heart:hover{
+    position: relative;
+    bottom: 35px;
+    margin-left: 20px;
+    width:30px ;
+}
+.head{
+    color: rgb(88, 6, 63);
+    font-size: 50px;
+    margin: 200px 0 0 100px;
+
+}
+.head1{
+    color: rgb(5, 27, 87);
+    font-size: 40px;
+    margin: 0px 0 0 150px;
+
+}
+
+
